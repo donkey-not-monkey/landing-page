@@ -18,6 +18,10 @@ body {
   align-items: center;
 }
 
+.first-quarter-left {
+  margin-right: auto;
+}
+
 #first-quarter p {
   color: #E5E7EB;
 }
@@ -39,13 +43,14 @@ body {
 
 .header,
 #first-quarter {
-  padding: 0px 100px;
+  padding: 0px 200px;
 }
 
 .header {
   background-color: #1F2937;
   color: white;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -56,6 +61,7 @@ body {
 .header a {
   text-decoration: none;
   color: grey;
+  margin-left: 15px;
 }
 
 /* SECOND QUARTER */
@@ -65,11 +71,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 30px;
+  padding-bottom: 70px; 
 }
 
 #second-quarter h2 {
   text-align: center;
   flex-basis: 100%;
+  margin-top: 30px;
 }
 
 .illustration {
@@ -92,12 +100,13 @@ body {
   font-weight: 300;
   font-style: italic;
   display: flex;
-  padding: 50px 100px;
+  padding: 100px 300px;
   flex-wrap: wrap;
 }
 
 #third-quarter span {
   margin-left: auto;
+  font-weight: 500;
 }
 
 /* FORTH QUARTER */
@@ -115,6 +124,7 @@ body {
   border-radius: 7px;
   width: 70%;
   padding: 30px 80px;
+  margin: 40px 100px;
 }
 
 
@@ -135,13 +145,13 @@ body {
   border-radius: 4px;
   color: white;
   background-color: #0165E1;
-  padding: 5px 8px;
+  padding: 8px 20px;
+  margin-right: 80px;
 
 }
 
 #footer {
   background-color: #1F2937;
-  height: 70px;
   color: white;
   text-align: center;
   margin-top: auto;
